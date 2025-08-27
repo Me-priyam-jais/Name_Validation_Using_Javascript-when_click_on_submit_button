@@ -14,7 +14,6 @@ Namebtn.addEventListener("click",()=>{
    { 
     // here we are setting the input to empty , when we work in real we can send this data to the database and again make this empty
     Nameinput.value="";
-    Nameinput.style.borderColor="black";
    }
    else
    {
@@ -24,6 +23,7 @@ Namebtn.addEventListener("click",()=>{
       alert("Only alphabets are valid in name");
     Nameinput.value="";
     },2);
+    Nameinput.style.borderColor="black";
     break;
    }
   }
